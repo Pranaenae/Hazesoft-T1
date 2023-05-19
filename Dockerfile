@@ -16,6 +16,7 @@ RUN git clone https://github.com/veekrum/task
 # Copy the site folder to the nginx document root folder
 RUN cp -r task/site/ .
 
+# Copy the default.conf folder from local directory into the nginx image directory.
 COPY default.conf /etc/nginx/http.d/default.conf
 
 # Expose port 9000
