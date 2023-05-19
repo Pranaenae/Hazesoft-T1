@@ -8,7 +8,7 @@ docker pull pranay1717/hazesoft-tasks:nginx-docker
 
 The entire process from start to finish is as follows:
 
-## 1. Write the dockerfile for the 
+## 1. Write the dockerfile for the nginx docker.
 
 ```
 FROM alpine:latest
